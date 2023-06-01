@@ -14,7 +14,7 @@ if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; re
 
 // document is loaded and DOM is ready
 document.addEventListener('DOMContentLoaded', function(){
-    fetch('/editor.txt')
+    fetch('editor.txt')
     .then(r => r.text())
     .then(data => {
         let codeBlock = document.querySelector("#entrance-background code");

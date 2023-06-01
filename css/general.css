@@ -21,15 +21,6 @@ body {
     padding: 0px;
 }
 
-/*
-body {
-    position: relative;
-
-    background-color: black !important;
-    color: rgb(240, 240, 240) !important;
-}
-*/
-
 nav {
     width: 100%;
     height: auto;
@@ -101,7 +92,7 @@ footer {
     height: 71px;
     visibility: hidden;
 }
-*/
+ */
 
 /*
 :target::before {
@@ -631,7 +622,7 @@ footer {
 
 #ro .topic-box-icon,
 #climate-prediction .topic-box-icon,
-#privacy .topic-box-icon {
+#berkeleyproject .topic-box-icon {
     height: 90px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -652,10 +643,10 @@ footer {
 }
 
 #placesign .topic-box-icon img,
-#cal-hacks .topic-box-icon img,
+#summersearch .topic-box-icon img,
 #cortical .topic-box-icon img,
 #climate-prediction .topic-box-icon img,
-#ccic .topic-box-icon img,
+#hearthstone .topic-box-icon img,
 #webdev .column-topic-box-icon img,
 #other-skills .column-topic-box-icon img {
     border-radius: initial;
