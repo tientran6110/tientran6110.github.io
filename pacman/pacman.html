@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacman</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        #canvas {
+            width: 80vw; /* Adjust to your preferred size */
+            height: 80vw; /* Adjust to your preferred size */
+            max-width: 800px; /* Maximum size for larger screens */
+            max-height: 800px; /* Maximum size for larger screens */
+        }
+
+        #animation,
+        #ghosts {
+            width: 28vw; /* Adjust to your preferred size */
+            height: 4vw; /* Adjust to your preferred size */
+            max-width: 280px; /* Maximum size for larger screens */
+            max-height: 40px; /* Maximum size for larger screens */
+        }
+    </style>
+</head>
+
+<body style="margin: 0; background-color: black;">
+    <canvas id="canvas" width="500" height="500"></canvas>
+    <div style="display:none;">
+        <img id="animation" src="pacman_img/animations.gif" width="140" height="20">
+        <img id="ghosts" src="pacman_img/ghost.png" width="140" height="20">
+    </div>
+    <script src="ghost.js"></script>
+    <script src="pacman.js"></script>
+    <script src="pacmangame.js"></script>
+</body>
+
+</html>
+

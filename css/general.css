@@ -104,7 +104,7 @@ footer {
 }
 */
 
-.video-container {
+/* .video-container {
     position: relative;
     padding-bottom: 56.25%; 
     overflow: hidden;
@@ -116,7 +116,7 @@ footer {
     left: 0;
     width: 100%;
     height: 100%;
-}
+} */
 
 
 .tientran-tooltip {
@@ -722,6 +722,10 @@ footer {
 }
 
 #dino-tooltip {
+    bottom: 105%;
+}
+
+#pacman-tooltip {
     bottom: 105%;
 }
 
