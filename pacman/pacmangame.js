@@ -275,13 +275,13 @@ function handleTouch(event) {
     // Determine the direction based on the angle
     if (angle >= LEFT_ANGLE_RANGE[0] && angle <= LEFT_ANGLE_RANGE[1]) {
         // Handle left direction
-        pacman.nextDirection = DIRECTION_LEFT;
+        pacman.nextDirection = DIRECTION_RIGHT;
     } else if (angle >= UP_ANGLE_RANGE[0] && angle <= UP_ANGLE_RANGE[1]) {
         // Handle up direction
         pacman.nextDirection = DIRECTION_UP;
     } else if (angle >= RIGHT_ANGLE_RANGE[0] || angle <= RIGHT_ANGLE_RANGE[1]) {
         // Handle right direction
-        pacman.nextDirection = DIRECTION_RIGHT;
+        pacman.nextDirection = DIRECTION_LEFT;
     } else if (angle >= DOWN_ANGLE_RANGE[0] && angle <= DOWN_ANGLE_RANGE[1]) {
         // Handle down direction
         pacman.nextDirection = DIRECTION_BOTTOM;
