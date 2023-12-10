@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#canvas {
+  width: 80vw; /* Adjust to your preferred size */
+  height: 80vw; /* Adjust to your preferred size */
+  max-width: 800px; /* Maximum size for larger screens */
+  max-height: 800px; /* Maximum size for larger screens */
+  transform: translateX(50px);
+}
+
+#animation,
+#ghosts {
+  width: 28vw; /* Adjust to your preferred size */
+  height: 4vw; /* Adjust to your preferred size */
+  max-width: 280px; /* Maximum size for larger screens */
+  max-height: 40px; /* Maximum size for larger screens */
+}
+
+.lock-screen {
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+  position: fixed;
+}
